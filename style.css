@@ -1,0 +1,207 @@
+/*-----
+all
+-----*/
+body{
+	margin: 0;
+	font-family: "Yu Gothic Medium", "遊ゴシック Medium", YuGothic, "遊ゴシック体", "ヒラギノ角ゴ pro W3", sans-serif;
+}
+body{
+	color: #888;
+}
+main{
+	margin-bottom: 120px;
+}
+h2{
+	text-align: center;
+
+}
+/*-----
+header
+-----*/
+header{
+	margin-bottom: 120px;
+}
+h1{
+	margin-bottom: 48px;
+	color: #888;
+	padding-bottom: 24px;
+	border-bottom: 1px #0bd solid;
+}
+
+.h-img{
+	width: 100vw;
+	height: 380px;
+	object-fit: cover;
+	object-position: 0 60%;
+	/*--filter: sepia(80%);--*/
+	background-color: #0bd;
+    background-blend-mode: hard-light;
+    background-image: url(https://picsum.photos/1100/400);
+    border: none;
+}
+header ul{
+	list-style: none;
+	text-align: right;
+}
+header li{
+	display: inline;
+	margin: 0 12px;
+}
+header a{
+	text-decoration: none;
+	color: #888; 
+}
+header a:hover{
+	color: #0bd;
+}
+header i{
+	color: #888;
+}
+header i:hover{
+	color: #0bd;
+}
+.h-text{
+	width: 70%;
+	margin: 96px auto;
+}
+@media screen and (min-width: 1024px){
+	header img{
+		width: 80%;
+		margin: 0 10%;
+		height: 500px;
+	}
+}
+@media screen and (max-width: 768px){
+	header h1, header ul{
+		text-align: center;
+	}
+	
+}
+
+
+
+/*-----
+about
+-----*/
+.about{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 120px;
+	padding-bottom: 120px;
+	border-bottom: 1px #0bd solid;
+}
+.about-left{
+	width: 50%;
+	overflow: hidden;
+	float: left;
+}
+.about-dl{
+	float: right;
+	overflow: hidden;
+	width: 50%;
+}
+.about img{
+	float: left;
+	filter: ;
+	object-fit: cover;
+	border-radius: 50%;
+	height: 10em;
+  	width: 10em;
+  	margin: 0 20%;
+}
+.about dt{
+	float: left;
+	width: 25%;
+}
+.about dd{
+}
+.about p{
+	clear: both;
+	text-align: center;
+	padding-top: 36px;
+}
+.about a{
+	color: #888;
+	text-decoration: none;
+}
+.about a:hover{
+	color: #0bd;
+}
+@media screen and (max-width: 768px){
+	.about-left{
+		float: none;
+		text-align: center;
+		margin: 0 auto 36px auto;	
+}
+	.about-dl{
+		float: none;
+		margin: 0 auto;
+		width: 75%;
+}
+}
+
+
+/*-----
+skills
+-----*/
+.skills{
+	width: 80%;
+	margin: 0 auto 120px auto;
+	padding-bottom: 120px;
+	border-bottom: 1px #0bd solid;
+}
+.skills i{
+	font-size: 84px;
+	width: 32%;
+	text-align: center;
+	color: #888;
+
+	
+}
+
+
+/*-----
+contact
+-----*/
+.contact{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.contact-input-text{
+	padding: 12px 180px 12px 12px;
+	border-radius: 8px;
+	border: 1px solid #555;
+	margin: 6px auto 12px auto;
+}
+.contact-input-submit{
+	padding: 12px 40px;
+	border-radius: 8px;
+	border: none;
+	margin-top: 24px;
+	background-color: #888;
+	color: white;
+	font-size: 18px;
+}
+
+
+/*-----
+footer
+-----*/
+footer{
+	text-align: right;
+	margin: ;
+	background-color: #888;
+	padding: 18px 0;
+	color: #fff;
+}
+footer p{
+	padding-right: 24px;
+	font-size: 12px;
+}
+@media screen and (max-width: 768px){
+	footer p{
+		text-align: center;
+	}
+}
